@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Vibez</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Mood Vibez</h1>
+    
+    <div id="mood-box">
+      <h2 id="moodName">Click to vibe ✨</h2>
+      <p id="quote">Find your mood for the moment</p>
+    </div>
+
+    <div class="buttons">
+      <button id="generateBtn">🎲 New Vibe</button>
+      <button id="toggleProviderBtn">🎵 Use Spotify</button>
+      <button id="toggleDarkModeBtn">🌓 Dark Mode</button>
+    </div>
+
+    <div id="mediaDisplay">
+      <iframe id="ytPlayer" width="100%" height="200" frameborder="0" allowfullscreen></iframe>
+      <audio id="spPreview" style="display:none" controls></audio>
+      <a id="spLink" style="display:none" target="_blank" rel="noopener">Open in Spotify</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
