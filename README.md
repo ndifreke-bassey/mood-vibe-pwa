@@ -80,6 +80,7 @@ Each time you tap "Get Mood Vibe":
 * 📸 Capture vibe as image for stories
 * 🧠 Mood tracking over time
 * 🛠 Custom vibe creation
+* And lots more 
 
 ---
 
